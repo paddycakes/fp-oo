@@ -3,5 +3,20 @@
         fp-oo.chapter-one))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+  (testing "Test for second function."
+    (is (= 2 (second '(1 2 3 4 5))))))
+
+(deftest b-test
+  (testing "Test for second function."
+    (is (= nil (second [])))))
+
+(deftest c-test
+  (testing "Test for second function."
+    (is (= :b (second [:a :b :c])))))
+
+
+
+
+
+
+

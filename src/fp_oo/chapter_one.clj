@@ -1,6 +1,9 @@
 (ns fp-oo.chapter-one)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+;; Exercise 1
+;; Given what you know now, can you define a function second that
+;; returns the second element of a coll? 
+
+(def second (fn [list] (first (rest list))))
+
+
