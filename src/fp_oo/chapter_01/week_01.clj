@@ -1,4 +1,4 @@
-(ns fp-oo.chapter-one)
+(ns fp-oo.chapter-01.week-01)
 
 
 ; Exercise 1

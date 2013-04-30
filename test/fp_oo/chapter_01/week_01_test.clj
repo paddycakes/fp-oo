@@ -1,6 +1,6 @@
-(ns fp-oo.chapter-one-test
+(ns fp-oo.chapter-01.week-01-test
   (:use clojure.test
-        fp-oo.chapter-one))
+        fp-oo.chapter-01.week-01))
 
 ;; Exercise 1
 
@@ -18,11 +18,6 @@
     (is (= nil (third [])))
     (is (= :c (third [:a :b :c])))))
 
-;; Exercise 3
-
-(deftest add-squares-test
-  (testing "Test for add-squares function."
-    (is (= 30 (add-squares 1 2 5)))))
 
 
 
